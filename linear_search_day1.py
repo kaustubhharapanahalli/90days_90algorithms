@@ -24,7 +24,7 @@ def linear_search(input_list, search_element, length):
     return -1
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     # Taking the input values as a complete string and using the map method, convert the string into a map function and type cast it to return a list of integer values.
     input_list = list(map(float, input("Enter elements of the list seperated by a space: \n").split()))
     # Taking the input value of the search element.
@@ -33,4 +33,4 @@ if __name__ = "__main__":
     length = len(input_list)
 
     # Printing the output state of the returned value from the function.
-    print(linear_search(input_list=input_list, search_element=search_element, length=length))
+    print(f'The element is present at the index: {linear_search(input_list=input_list, search_element=search_element, length=length)}')
